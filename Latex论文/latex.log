@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.8.30)  5 SEP 2024 15:20
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.8.30)  5 SEP 2024 16:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -275,6 +275,21 @@ LaTeX Warning: Label `fig:example' multiply defined.
 
 LaTeX Warning: Label `fig:example' multiply defined.
 
+
+LaTeX Warning: Label `fig:example' multiply defined.
+
+
+LaTeX Warning: Label `fig:example' multiply defined.
+
+
+LaTeX Warning: Label `fig:example' multiply defined.
+
+
+LaTeX Warning: Label `fig:example' multiply defined.
+
+
+LaTeX Warning: Label `fig:example' multiply defined.
+
 )
 \openout1 = `latex.aux'.
 
@@ -458,7 +473,18 @@ File: git3.png Graphic file (type bmp)
 <git3.png>
 File: git4.png Graphic file (type bmp)
 <git4.png>
- [3] (./latex.aux)
+File: git5.png Graphic file (type bmp)
+<git5.png>
+File: git6.png Graphic file (type bmp)
+<git6.png>
+File: git7.png Graphic file (type bmp)
+<git7.png>
+File: git8.png Graphic file (type bmp)
+<git8.png>
+ [3]
+File: git10.png Graphic file (type bmp)
+<git10.png>
+ [4] (./latex.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2022/07/14>
@@ -469,12 +495,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 8817 strings out of 474773
- 241325 string characters out of 5758619
- 1933842 words of memory out of 5000000
- 30863 multiletter control sequences out of 15000+600000
+ 8823 strings out of 474773
+ 239283 string characters out of 5758619
+ 1930842 words of memory out of 5000000
+ 30864 multiletter control sequences out of 15000+600000
  564559 words of font info for 88 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  93i,8n,97p,358b,456s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on latex.pdf (3 pages).
+Output written on latex.pdf (4 pages).

@@ -130,7 +130,7 @@ This is \textbf{bold}, this is \textit{italic}, and this is \underline{underline
   % 插入图片
   \includegraphics[width=0.5\linewidth]{git2.png}
   % 图片标题
-  \captionof{figure}{初始化新仓库}
+  \captionof{figure}{添加文件}
   \label{fig:example}
 \end{minipage}
 
@@ -142,11 +142,12 @@ This is \textbf{bold}, this is \textit{italic}, and this is \underline{underline
   % 插入图片
   \includegraphics[width=0.5\linewidth]{git3.png}
   % 图片标题
-  \captionof{figure}{初始化新仓库}
+  \captionof{figure}{将Latex源文件添加到Git仓库}
   \label{fig:example}
 \end{minipage}
 
 4.在处理大型文档或尝试新功能时，可以创建分支来隔离开发工作。
+git checkout -b feature-branch
 
 \noindent
 \begin{minipage}{\linewidth}
@@ -154,28 +155,77 @@ This is \textbf{bold}, this is \textit{italic}, and this is \underline{underline
   % 插入图片
   \includegraphics[width=0.5\linewidth]{git4.png}
   % 图片标题
-  \captionof{figure}{初始化新仓库}
+  \captionof{figure}{创建分支}
   \label{fig:example}
 \end{minipage}
 
 5.
+查看工作目录和暂存区的状态:git status
 
-6.
+\noindent
+\begin{minipage}{\linewidth}
+ \centering
+  % 插入图片
+  \includegraphics[width=0.5\linewidth]{git5.png}
+  % 图片标题
+  \captionof{figure}{查看工作目录和暂存区状态}
+  \label{fig:example}
+\end{minipage}
 
-7.
+6.列出所有分支：git branch
 
-8.
+\noindent
+\begin{minipage}{\linewidth}
+ \centering
+  % 插入图片
+  \includegraphics[width=0.5\linewidth]{git6.png}
+  % 图片标题
+  \captionof{figure}{初始化新仓库}
+  \label{fig:example}
+\end{minipage}
 
-9.
+7.展示历来提交版本：git log
 
-10.
+\noindent
+\begin{minipage}{\linewidth}
+ \centering
+  % 插入图片
+  \includegraphics[width=0.5\linewidth]{git7.png}
+  % 图片标题
+  \captionof{figure}{展示历来提交版本}
+  \label{fig:example}
+\end{minipage}
+
+8.打开任意版本：git show hash(哈希值)
+
+\noindent
+\begin{minipage}{\linewidth}
+ \centering
+  % 插入图片
+  \includegraphics[width=0.5\linewidth]{git8.png}
+  % 图片标题
+  \captionof{figure}{打开任意版本}
+  \label{fig:example}
+\end{minipage}
+
+9. 将当前分支回退到指定的提交：git reset --hard [commit hash]
+
+此处不做展示
+
+10.查看工作目录和暂存区之间的差异：git diff
+
+\noindent
+\begin{minipage}{\linewidth}
+ \centering
+  % 插入图片
+  \includegraphics[width=0.5\linewidth]{git10.png}
+  % 图片标题
+  \captionof{figure}{查看工作目录和暂存区之间的差异}
+  \label{fig:example}
+\end{minipage}
 
 
-\begin{itemize}
-    \item 首先，我深刻体会到……（描述你的第一个感悟）。
-    \item 其次，在这次活动中，我学到了……（描述你的第二个感悟）。
-    \item 最后，通过这次经历，我认识到……（描述你的第三个感悟）。
-\end{itemize}
+
 
 \section{解题感悟}
 通过学习LaTeX，我学会了如何制作出格式规范、排版美观的文档。在撰写实验报告时，
@@ -183,9 +233,9 @@ This is \textbf{bold}, this is \textit{italic}, and this is \underline{underline
 符号方面非常强大，这对于学术写作和科学交流来说非常有用。通过Latex，我能够用代
 码，更加容易地对文档进行维护和修改。
 
-Git教会了我如何管理代码的历史版本，能够大大提高工作效率。首先，我学会了如何与
-分支管理以及代码备份与恢复。Git提供了一个分布式的代码备份系统，这意味着即使本地文件丢失，我也可以从远程仓库恢复我的工作。
-流程化和规范化：Git的使用促进了我对软件开发流程的理解，包括如何进行功能开发、问题修复和版本发布。
-解决问题的能力：在遇到合并冲突或其他问题时，Git迫使我学习如何分析问题并找到解决方案，这对我的问题解决能力是一个很好的锻炼。
+Git教会了我如何管理代码的历史版本，能够大大提高工作效率。首先，我学会了如何
+分支管理以及代码备份与恢复。即使本地文件丢失，我也可以从远程仓库找到我的文件。
+在遇到合并冲突或其他问题时，Git迫使我学习如何分析问题并找到解决方案，大大提高
+了我解决问题的能力
 
 \end{document}
